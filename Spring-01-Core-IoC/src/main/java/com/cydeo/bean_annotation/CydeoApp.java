@@ -8,6 +8,16 @@ public class CydeoApp {
 
         ApplicationContext container = new AnnotationConfigApplicationContext(ConfigApp.class,ConfigAny.class);
 
+        FullTimeMentor ft = container.getBean(FullTimeMentor.class);
+
+        ParTimeMentor pt = container.getBean(ParTimeMentor.class);
+
+      //  ft.createAccount();
+
+      //  pt.createAccount();
+
+
+
         String str = container.getBean(String.class);
         System.out.println(str);
 
