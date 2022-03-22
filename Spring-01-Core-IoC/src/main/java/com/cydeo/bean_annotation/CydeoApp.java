@@ -12,14 +12,17 @@ public class CydeoApp {
 
         ParTimeMentor pt = container.getBean(ParTimeMentor.class);
 
-      //  ft.createAccount();
+        ft.createAccount();
 
-      //  pt.createAccount();
+        pt.createAccount();
 
 
 
         String str = container.getBean(String.class);
         System.out.println(str);
+
+        Integer int1 = container.getBean(Integer.class);
+        System.out.println(int1);
 
     }
 }

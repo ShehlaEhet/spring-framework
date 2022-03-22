@@ -9,6 +9,7 @@ public class ConfigApp {
 
     @Bean
     FullTimeMentor fullTimeMentor(){
+
         return new FullTimeMentor();
     }
 
@@ -19,6 +20,7 @@ public class ConfigApp {
 
     @Bean
     ParTimeMentor parTimeMentor(){
+
         return new ParTimeMentor();
     }
 }
